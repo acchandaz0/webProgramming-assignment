@@ -6,208 +6,64 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Pixel Cats :3</title>
         <link rel="icon" type="image/x-icon" href="http://pixelartmaker-data-78746291193.nyc3.digitaloceanspaces.com/image/c99ffe297f745ff.png">
-        <style>
-            .pixel-catss-container {
-            width: 100%;
-            display: flex;
-            overflow: auto;
-            min-height: 100vh;
-            align-items: center;
-            flex-direction: column;
-            justify-content: center;
-            }
-            .pixel-catss-home {
-            gap:16px;
-            width: 100%;
-            height: 1785px;
-            display: flex;
-            overflow: hidden;
-            position: relative;
-            align-items: center;
-            flex-shrink: 0;
-            flex-direction: column;
-            justify-content: center;
-            background-color: rgba(247, 255, 246, 1);
-            }
-            .pixel-catss-container1 {
-            gap: 16px;
-            flex: 0 0 auto;
-            width: 100%;
-            height: 86px;
-            display: flex;
-            align-items: center;
-            padding-left: 48px;
-            padding-right: 48px;
-            justify-content: flex-start;
-            background-color: #3C6444;
-            }
-            .pixel-catss-image {
-            width: 144px;
-            height: 72px;
-            align-self: center;
-            object-fit: cover;
-            padding-left: 48px;
-            }
-            .pixel-catss-text {
-            color: #f7fff6;
-            padding:16px;
-            font-size: 24px;
-            align-self: center;
-            font-style: normal;
-            font-family: Minecraft;
-            font-weight: 400;
-            padding-top: 24px;
-            padding-left: 24px;
-            padding-right: 24px;
-            padding-bottom: 24px;
-            text-transform: uppercase;
-            }
-            .pixel-catss-image1 {
-            width: auto;
-            height: 140px;
-            align-self: center;
-            object-fit: cover;
-            padding-top: 48px;
-            padding-bottom: 48px;
-            }
-            .pixel-catss-container2 {
-            flex: 0 0 auto;
-            width: 95%;
-            height: auto;
-            display: flex;
-            align-self: center;
-            align-items: center;
-            border-radius: 30px;
-            padding-top: 32px;
-            padding-bottom: 32px;
-            justify-content: center;
-            background-color: #D3E8B9;
-            }
-            .pixel-catss-video {
-            width: 491px;
-            height: 299px;
-            align-self: center;
-            }
-            .pixel-catss-container3 {
-            gap: 32px;
-            flex: 0 0 auto;
-            width: 480px;
-            height: 258px;
-            display: flex;
-            align-self: center;
-            align-items: center;
-            flex-direction: column;
-            justify-content: center;
-            }
-            .pixel-catss-text01 {
-            color: #2e483d;
-            font-size: 40px;
-            font-family: Minecraft;
-            }
-            .pixel-catss-text02 {
-            color: #2e483d;
-            font-size: 32px;
-            font-family: Minecraft;
-            }
-            .pixel-catss-image2 {
-            width: 134px;
-            height: 35px;
-            object-fit: cover;
-            }
-            .pixel-catss-container4 {
-            gap:16px;
-            flex: 1;
-            width: 95%;
-            height: auto;
-            display: flex;
-            align-self: center;
-            align-items: flex-start;
-            padding-top: 32px;
-            margin-right: 3px;
-            padding-left: 32px;
-            border-radius: 25px;
-            padding-right: 32px;
-            flex-direction: column;
-            padding-bottom: 32px;
-            justify-content: flex-start;
-            background-color: #D3E8B9;
-            border-top-left-radius: 25px;
-            border-top-right-radius: 25px;
-            }
-            .pixel-catss-text10 {
-            color: rgb(46, 72, 61);
-            font-size: 32px;
-            font-family: Minecraft;
-            }
-            .pixel-catss-text11 {
-            color: rgb(60, 100, 68);
-            font-size: 18px;
-            font-style: normal;
-            font-family: Inter;
-            font-weight: 600;
-            }
-            .pixel-catss-text12 {
-            color: rgb(46, 72, 61);
-            font-size: 32px;
-            font-family: Minecraft;
-            }
-            .pixel-catss-text13 {
-            color: rgb(60, 100, 68);
-            font-size: 18px;
-            font-style: normal;
-            font-family: Inter;
-            font-weight: 600;
-            }
-            .pixel-catss-text14 {
-            color: rgb(46, 72, 61);
-            font-size: 32px;
-            font-family: Minecraft;
-            }
-            .pixel-catss-text15 {
-            color: rgb(60, 100, 68);
-            font-size: 18px;
-            font-style: normal;
-            font-family: Inter;
-            font-weight: 600;
-            }
-            .pixel-catss-text16 {
-            color: rgb(46, 72, 61);
-            font-size: 32px;
-            font-family: Minecraft;
-            }
-            .pixel-catss-text17 {
-            color: rgb(60, 100, 68);
-            font-size: 18px;
-            font-style: normal;
-            font-family: Inter;
-            font-weight: 600;
-            }
-        </style>
+        <link href="https://fonts.cdnfonts.com/css/minecraft-4" rel="stylesheet">
+        <link href="pixelcat-style.css" rel="stylesheet" />
     </head>
     
     <body>
         <div>
-            <link href="./pixel-catss.css" rel="stylesheet" />
+            
+            <header class="header">
+              <!-- <div class="pixel-catss-container1"> -->
+                <img
+                  alt="image"
+                  src="paw.png"
+                  class="pixel-catss-image"
+                />
+                <span class="dropdown">
+                  <a href="javascript:void(0)" class="pixel-catss-text dropbtn">MIAWPEDIA</a>
+                  <div class="dropdown-content">
+                      <a href="#">About Cats</a>
+                      <a href="#">Various Breeds</a>
+                      <a href="#">Behind A Cat's Cuteness</a>
+                      <a href="#">Do They Think You're Cute?</a>
+                  </div>
+                </span>
+                <span class="dropdown">
+                  <a href="javascript:void(0)" class="pixel-catss-text dropbtn">cat types</a>
+                  <div class="dropdown-content">
+                      <a href="#">Tuxedo Cats</a>
+                      <a href="#">Tortoiseshell Cats</a>
+                      <a href="#">Calico Cats</a>
+                      <a href="#">Tabby Cats</a>
+                      <a href="#">Albino Cats</a>
+                      <a href="#">Chimera Cats</a>
+                  </div>
+                </span>
+                <span class="dropdown">
+                  <a href="javascript:void(0)" class="pixel-catss-text dropbtn">paw paw zone</a>
+                </span>
+                <span class="dropdown">
+                  <a href="javascript:void(0)" class="pixel-catss-text dropbtn">pet me!</a>
+                  <div class="dropdown-content">
+                      <a href="#">For Apartement Living</a>
+                      <a href="#">For Lazy People</a>
+                      <a href="#">Breed That Don't Shed (much)</a>
+                  </div>
+                </span>
+              <!-- </div> -->
+            </header>
             <div class="pixel-catss-container">
-              <div class="pixel-catss-home">
-                <div class="pixel-catss-container1">
-                  <img
-                    alt="image"
-                    src="paw.png"
-                    class="pixel-catss-image"
-                  />
-                  <span class="pixel-catss-text">MIAWPEDIA</span>
-                  <span class="pixel-catss-text">cat types</span>
-                  <span class="pixel-catss-text">paw paw zone</span>
-                  <span class="pixel-catss-text">pet me !</span>
-                </div>
+              <!-- <div class="pixel-catss-home"> -->
+                
                 <img
                   alt="image"
                   src="logoPixelCat.png"
                   class="pixel-catss-image1"
                 />
                 <div class="pixel-catss-container2">
-                    <iframe 
+                    <!-- <div class="pixel-catss-iframe"> -->
+                      <iframe 
                         width="560" 
                         height="315" 
                         src="https://www.youtube.com/embed/emVHICofYKU?si=hWiEeuuQ7GMEfF2N" 
@@ -216,6 +72,7 @@
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                         allowfullscreen
                     ></iframe>
+                    <!-- </div> -->
                   <!-- <video
                     src="https://youtu.be/emVHICofYKU?si=0vNczVwr5ZlRuI_I"
                     loop
@@ -240,33 +97,84 @@
                   class="pixel-catss-image2"
                 />
                 <div class="pixel-catss-container4">
-                  <h1 class="pixel-catss-text10">About Cats</h1>
+                  <h1 class="pixel-catss-text02">About Cats</h1>
+                  <span class="pixel-catss-text11">
+                    The cat (Felis catus) is a small domesticated carnivorous mammal with soft 
+                    fur, a short snout, and retractable claws. It is widely kept as a pet or 
+                    for catching mice, and many breeds have been developed.
+                  </span>
+                  <table class="pixel-catss-text11">
+                    <tr>
+                      <th>Conservation status:</th>
+                      <td>Domesticated</td>
+                    </tr>
+                    <tr>
+                      <th>Common name:</th>
+                      <td>Cat</td>
+                    </tr>
+                    <tr>
+                      <th>Scientific name:</th>
+                      <td>Felis catus</td>
+                    </tr>
+                    <tr>
+                      <th>Type:</th>
+                      <td>Mammals</td>
+                    </tr>
+                    <tr>
+                      <th>Diet:</th>
+                      <td>Carnivore</td>
+                    </tr>
+                    <tr>
+                      <th>Size:</th>
+                      <td>28 inches</td>
+                    </tr>
+                    <tr>
+                      <th>Weight:</th>
+                      <td>5 to 20 pounds</td>
+                    </tr>
+                  </table>
+
+                  <h1 class="pixel-catss-text02">Various Breeds</h1>
                   <span class="pixel-catss-text11">
                     A small domesticated carnivorous mammal with soft fur, a short snout,
                     and retractable claws. It is widely kept as a pet or for catching
-                    mice, and many breeds have been developed. [TABLE]
-                  </span>
-                  <h1 class="pixel-catss-text12">Various Breeds</h1>
-                  <span class="pixel-catss-text13">
-                    A small domesticated carnivorous mammal with soft fur, a short snout,
-                    and retractable claws. It is widely kept as a pet or for catching
                     mice, and many breeds have been developed.
                   </span>
-                  <h1 class="pixel-catss-text14">Behind A Cat’s Cuteness</h1>
-                  <span class="pixel-catss-text15">
-                    A small domesticated carnivorous mammal with soft fur, a short snout,
-                    and retractable claws. It is widely kept as a pet or for catching
-                    mice, and many breeds have been developed.
+                  <h1 class="pixel-catss-text02">Behind A Cat’s Cuteness</h1>
+                  <span class="pixel-catss-text11">
+                    What the Science Says. Like babies, cats seem to activate our brain's 
+                    cuteness response. This might be due to cats' physical characteristics, 
+                    including child-like features like big eyes and small noses. Studies have 
+                    shown that humans, particularly women, extend the “baby schema effect” to 
+                    animals as well as babies.
                   </span>
-                  <h1 class="pixel-catss-text16">Do they think you’re cute?</h1>
-                  <span class="pixel-catss-text17">
-                    A small domesticated carnivorous mammal with soft fur, a short snout,
-                    and retractable claws. It is widely kept as a pet or for catching
-                    mice, and many breeds have been developed.
+                  <span class="pixel-catss-text11">
+                    here are 10 other reasons cats are so cute:
+                  </span>
+                  <ol class="pixel-catss-text11">
+                    <li>Their squishy paws are pawsitively irresistible.</li>
+                    <li>They knead the sweetest biscuits.</li>
+                    <li>They have the softest, silliest bellies.</li>
+                    <li>They take napping to the (adorable) extreme.</li>
+                    <li>Their tails have minds of their own.</li>
+                    <li>They’re not shy about wanting pets.</li>
+                    <li>They have the sweetest meows.</li>
+                    <li>They bring us “gifts.”</li>
+                    <li>They know when we’re sad.</li>
+                    <li>Even their butts are cute.</li>
+                  </ol>
+
+                  <h1 class="pixel-catss-text02">Do they think you’re cute?</h1>
+                  <span class="pixel-catss-text11">
+                    Although cats can't give us the answer to this question, studies have led 
+                    researchers to believe cats do not think people are "cute." Cats appear to 
+                    treat humans like they treat other cats — so they may think we are larger, 
+                    hairless cats. They don't seem to be aware we are a separate species and only 
+                    see us as their "owners" or parents because we feed and care for them.
                   </span>
                 </div>
               </div>
-            </div>
+            <!-- </div> -->
           </div>
           
         
